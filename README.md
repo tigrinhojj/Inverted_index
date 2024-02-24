@@ -1,4 +1,4 @@
-# Inverted_index
+# Inverted index
 The purpose of information retrieval is finding material of an unstructured nature that satisfies an information need from within large collections. An example of an information retrieval task is the search for relevant Wikipedia articles by a given query. In the simplest case, we want to find articles that contain all words from the query. To do this, we can iterate through all documents one by one and check that all words from the query are present in the document. However, Wikipedia currently has over 51 million articles, so direct search is too expensive.  
 
 Modern search engines use special data structures for fast search, such as inverted index. An inverted index is a data structure that for each word indicates a set of articles containing that word. To find a set of suitable articles for a query, we need to intersect sets of articles for all words in the query.  
